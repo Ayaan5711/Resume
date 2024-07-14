@@ -1,0 +1,177 @@
+\documentclass[letterpaper,11pt]{article}
+
+% Packages
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+
+% Page setup
+\input{glyphtounicode}
+\pdfgentounicode=1
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\urlstyle{same}
+\setlength{\footskip}{0}
+\setlength{\oddsidemargin}{-0.5in}
+\setlength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.9in}
+\addtolength{\textheight}{11.0in}
+
+% Section formatting
+\titleformat{\section}{\vspace{-5pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\titleformat{\subsection}{\vspace{-4pt}\scshape\raggedright\large}{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-8pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & #2 \\ \textit{\small#3} & \textit{\small #4} \\ \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeSubSubheading}[2]{\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}\textit{\small#1} & \textit{\small #2} \\ \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeProjectHeading}[2]{\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}\small#1 & #2 \\ \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% Document start
+\begin{document}
+
+% Header
+% Header
+% Header
+\begin{center}
+    \vspace{5pt}
+    \textbf{\Huge \scshape Ayaan Ahmed} \\ \vspace{9pt}
+    \small 
+    \faIcon{github} \href{https://github.com/Ayaan5711}{\underline{github.com/Ayaan5711}} $|$ 
+    \faIcon{linkedin} \href{https://www.linkedin.com/in/ahmedayaan07/}{\underline{linkedin.com/in/ahmedayaan07}} $|$ 
+    \faIcon{envelope} \href{mailto:ahmedayaan570@gmail.com}{\underline{ahmedayaan570@gmail.com}} $|$ 
+    \faIcon{phone} \href{tel:+918777082393}{\underline{+91 8777082393}} \\
+    \vspace{4pt}
+    \textit{\small  \faIcon{map-marker-alt}\href{https://www.google.com/maps/place/Kolkata}{\underline{Kolkata, India}}}
+\end{center}
+
+% Summary
+\section{Summary}
+\small Machine Learning Student specializing in AI Applications and Scalable Tech: proficient in Java, Python, TensorFlow, scikit-learn,Python and ML frameworks. Skilled in deep learning, GenAI and data analytics, with a track record of impactful projects. Excited to apply expertise to dynamic AI roles.
+% Experience
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{https://drive.google.com/file/d/1Nve1ynDWFWhi3EeVDLBDKVyJTcwOwA0E/view?usp=sharing}{Summer Intern, IEEE Kharagpur CS SBC-IIT Kharagpur}}{June 2024 -- Present}
+{ML \& CV Solutions}{India}
+\resumeItemListStart
+\resumeItem{Developed machine learning, deep learning, and computer vision models using TensorFlow, Keras, and YOLO for real-time usage.}
+\resumeItem{Fine-tuned large language models (LLMs) and large vision models (LVMs) for specific tasks using Keras, JAX \& LangChain.}
+\resumeItem{Built interactive applications with Streamlit and visualized data insights.}
+\resumeItem{Designed and deployed chatbots and real-time models with Gemma and GPT frameworks for research and development.}
+\resumeItemListEnd
+
+\resumeSubheading
+{\href{https://drive.google.com/file/d/16FGpwyRInOTvrDSxBTG3jCsuSzkSpxjF/view?usp=sharing}{Summer Intern, Celebal Technologies}}{May 2024 -- July 2024}
+{Data Engineering Department}{ India}
+\resumeItemListStart
+\resumeItem{Installed and configured Microsoft SQL Server and MySQL, mastered DDL, DML, TCL commands, stored procedures, and dynamic SQL.}
+\resumeItem{Developed data processing and real-time streaming solutions with Apache Spark and Kafka.}
+\resumeItem{Set up Azure Data Factory (ADF), implemented ETL processes, and created parameterized pipelines.}
+\resumeItem{Worked on reading the MNIST dataset from ADLS Gen2 using PySpark.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% Projects
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\href{https://github.com/zaibreyaz/Prama.git} {\underline{\textbf{Pramā} }} $|$ \footnotesize\emph{Python, Flask, ReactJS, Langchain, Gemma APIs, Vector DB(FAISS),Multi-Source RAG }}{June 2024 - present}
+\resumeItemListStart
+\resumeItem{Developed an AI-powered LMS leveraging adaptive learning algorithms and AI summarization with state of the art GenAI and NLP integration.}
+\resumeItem{Engaged in Hack4Bengal 3.0 2024 Hackathon, earned Honorable Mention.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://github.com/Ayaan5711/SignaVerse} {\underline{\textbf{SignaVerse} }} $|$ \footnotesize\emph{Python,Deep Learning,DenseNet,OpenCV,Data Modelling}}{November 2023 - February 2024}
+\resumeItemListStart
+\resumeItem{Developed ISL translator using OpenCV \& MediaPipe Holistic for gesture recognition.}
+\resumeItem{Implemented a sequence-to-sequence model for accurate ISL to text conversion.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://github.com/Ayaan5711/DilCare} {\underline{\textbf{DilCare} }} $|$ \footnotesize\emph{ML Algorithm, Predictive Modelling, EDA, FastAPI,PostgreSQL,Airflow,Grafana}}{March 2024 -- Present}
+\resumeItemListStart
+\resumeItem{Designed and deployed a stroke prediction model using RandomForest and integrated with Streamlit.}
+\resumeItem{Used FastAPI for backend management and PostgreSQL & SQLAlchemy for real-time data management.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%Education
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Techno Main Salt Lake, Kolkata}{2021 -- 2025}
+{B.Tech in Computer Science and Engineering (AIML)}{\hfill \textbf{CGPA}: \href{https://drive.google.com/drive/folders/16aQjnskVvnI-6e1vsoxu4L8_L1HjS5H1?usp=drive_link}{8.65} || \textbf{ISC(12th)}: \href{https://drive.google.com/file/d/1SwUdtv0gVPg2oIW_HM5ZQNIa6NPvY5Lu/view?usp=sharing}{93\%}}
+\resumeSubHeadingListEnd
+
+
+% Technical Skills
+\section{Technical Skills}
+\vspace{-10pt}
+\begin{multicols}{2}
+    \begin{itemize}[leftmargin=*, itemsep=-2pt]
+        \item \textbf{Languages:} Java, Python, SQL
+        \item \textbf{Frameworks \& Libraries:} TensorFlow, Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, Pandas, Matplotlib, Seaborn, Plotly
+        \item \textbf{Tools \& Platforms:} Git, GitHub, Docker, Apache Spark, Apache Kafka, Azure Data Factory, Streamlit
+        \item \textbf{ML \& AI:} LangChain, FastAPI, Flask, YOLO, MediaPipe, LLMs, LVMs,Transformers,GAN,RAG
+        \item \textbf{Other:}Django ,MySQL, PostgreSQL,ETL Processes, CI/CD, LLM Ops, AWS, ADF
+    \end{itemize}
+\end{multicols}
+\vspace{-15pt}
+
+% Certifications
+\section{Certifications}
+\vspace{-10pt}
+\begin{multicols}{4}
+    \begin{itemize}[leftmargin=*, itemsep=-10pt]
+        \item \href{https://coursera.org/share/5f0a58d8871ad2e63bfd13074b6040da}{Machine Learning}
+        \item \href{https://www.udemy.com/certificate/UC-690ca4e6-b24d-4551-b1d6-edd57ff97ad3/}{Complete GenAI}
+        \item \href{https://drive.google.com/file/d/1ugpfS6tVk5ppi1V-MzD8C2EZbRe-homk/view?usp=sharing}{Cloud IBM}
+        \item \href{https://www.udemy.com/certificate/UC-d5e22d52-cbe1-40ae-9148-d1722c71d680/}{Full Stack Python}
+    \end{itemize}
+\end{multicols}
+\vspace{-15pt}
+
+
+% Languages & Activities
+\section{Languages \& Activities}
+\vspace{-15pt}
+\begin{multicols}{3}
+    \begin{itemize}[leftmargin=*, itemsep=-2pt]
+        \item Languages: English (fluent), Hindi (native), Bengali (fluent), German (basic)
+        \item Activities: Hack4Bengal 3.0, Tata Imagination Challenge, EY Tecathon 4.0, CTS Eastzone Hackathon
+        \item \href{https://www.hackerrank.com/profile/ahmedayaan570}{Hackerrank: 5-star Python, 3-star SQL}
+        \item \href{https://leetcode.com/u/ahmedayaan/}{LeetCode: Profile}
+    \end{itemize}
+\end{multicols}
+\vspace{-15pt}
+
+\end{document}
